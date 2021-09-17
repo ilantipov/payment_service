@@ -5,6 +5,9 @@ interface ServiceInterface
     /**
      * @return mixed
      */
+
+    public function getPriceName(): string;
+
     public function getPrice(): string;
 
     public function activateService(PaymentDataInterface $paymentData): bool;
