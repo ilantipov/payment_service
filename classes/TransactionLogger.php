@@ -2,19 +2,10 @@
 
 class TransactionLogger implements TransactionLoggerInterface
 {
-
     /**
      * @inheritDoc
      */
-    public function createTransaction(PaymentDataInterface $paymentData): Order
-    {
-        // TODO: Implement processPaymentData() method.
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function __construct(?string $orderNumber)
+    public function __construct(PaymentDataInterface $paymentData)
     {
     }
 

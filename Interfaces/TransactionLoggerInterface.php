@@ -21,6 +21,6 @@ interface TransactionLoggerInterface
      * название класса услуги
      *
      */
-    public function createTransaction(PaymentDataInterface $paymentData): void;
+    public function __construct(PaymentDataInterface $paymentData);
 
 }
